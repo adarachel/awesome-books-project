@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/e83d856101.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Books</title>
+  <script src="./index.js" type="module"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="awesomebookslogo" id="awesomebookstitle"> <i class="fas fa-book-open"></i> Awesome <span class="bk ">Books</span> </h1>
+      <ul class="navbar-ul">
+        <li><a id="booklisttitle" href="index.html">List</a></li>
+        <li><a id="addnewbooktitle" href="addnewpage.html">Add New</a></li>
+        <li><a id="contactBtn" href="contactpage.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="current-date"></div>
+
+    <section>
+  <div id="library">
+    <div class="empty hide" id="empty-id">
+      <h2 id="booklisttitle">ALL AWESOME BOOKS</h2>
+    </div>
+  </div>
+  </section>
+  <div class="todays-date">
+    <small id="time"></small>
+  </div>
+
+    <footer>
+      <p>COPYRIGHT 2022, JAY-RACHEL-RIYANA SINGLE-PAGE APPLICATION </p>
+    </footer>
+
+  <script src="./modules/script.js"></script>
+  <script src="./localStorage.js"></script>
+</body>
+</html>
