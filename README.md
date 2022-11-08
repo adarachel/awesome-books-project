@@ -1,10 +1,6 @@
 # Awesome Books Project
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Recent Fixes
-
-- Fixed style linters errors
-
 ## Built With
 
 - HTML
@@ -30,7 +26,7 @@
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/187jjay187/awesomebooks/issues).
+Feel free to check the [issues page](https://github.com/adarachel/awesome-books-project/issues).
 
 ## Show your support
 
