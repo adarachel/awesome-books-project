@@ -1,3 +1,9 @@
+if (typeof window !== 'undefined') {
+  console.log('You are on the browser')
+} else {
+  console.log('You are on the server')
+}
+
 // eslint-disable-next-line no-unused-vars
 const uid = () => Date.now().toString(36) + Math.random().toString(36).substr(2);
 
