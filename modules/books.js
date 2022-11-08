@@ -10,7 +10,7 @@ class Book {
     // eslint-disable-next-line no-undef
     library.push(this);
   };
-  
+
   removeBook = () => {
     // eslint-disable-next-line no-undef
     library = library.filter((book) => book.id !== this.id);
