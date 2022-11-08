@@ -1,3 +1,9 @@
+if (typeof window !== 'undefined') {
+    console.log('You are on the browser')
+  } else {
+    console.log('You are on the server')
+  }
+
 /*eslint-disable*/
 import Book from './modules/books.js';
 import './modules/app.js'
