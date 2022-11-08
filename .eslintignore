@@ -1,7 +1,3 @@
-# Same as gitignore
-{
- "ignorePatterns": ["index.js", "app.js", "books.js", "**/vendor/*.js"],
- "rules": {
-      //...
-    }
-}
+index/*.js
+modules/app/*.js
+modules/books/*.js
