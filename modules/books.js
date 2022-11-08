@@ -1,4 +1,3 @@
-/* eslint-diable */
 class Book {
   constructor(id, title, author) {
     this.id = id;
@@ -7,12 +6,10 @@ class Book {
   }
 
   addBook = () => {
-    // eslint-disable-next-line no-undef
     library.push(this);
   };
 
   removeBook = () => {
-    // eslint-disable-next-line no-undef
     library = library.filter((book) => book.id !== this.id);
   };
 }

@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import Book from './modules/books.js';
 import './modules/app.js'
 import { DateTime } from './modules/luxon.js';
