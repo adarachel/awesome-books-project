@@ -1,6 +1,3 @@
-var jsdom = require("jsdom");
-var JSDOM = jsdom.JSDOM;
-
 // eslint-disable-next-line no-unused-vars
 const uid = () => Date.now().toString(36) + Math.random().toString(36).substr(2);
 

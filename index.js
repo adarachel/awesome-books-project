@@ -1,3 +1,6 @@
+var jsdom = require("jsdom");
+var JSDOM = jsdom.JSDOM;
+
 /*eslint-disable*/
 import Book from './modules/books.js';
 import './modules/app.js'
